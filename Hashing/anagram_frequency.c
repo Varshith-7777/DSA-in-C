@@ -1,3 +1,19 @@
+/*
+Problem: Valid Anagram
+Concept: Frequency Array (Hashing)
+Approach:
+- Use int freq[26]
+- Checking is strings are equal
+- converting character to index value
+- Increment for s[i]
+- Decrement for t[i]
+- If all values of frequency are zero → Anagram
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+*/
+
+
 #include <stdio.h>
 #include <string.h>
 
